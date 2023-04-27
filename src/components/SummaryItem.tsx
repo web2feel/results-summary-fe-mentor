@@ -8,7 +8,7 @@ type ItemProps = {
 };
 const SummaryItem = (props: ItemProps) => {
   const { category, score, icon, color } = props.item;
-  const colorVals = {
+  const colorVals:{ [key: string]: string } = {
     red: `bg-light-red text-light-red`,
     yellow: `bg-orangy-yellow text-orangy-yellow`,
     green: `bg-green-teal text-green-teal`,

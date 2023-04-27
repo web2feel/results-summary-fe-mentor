@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "HankenGrotesk";
-  src: url("fonts/HankenGrotesk-VariableFont_wght.ttf");
+  src: url("/fonts/HankenGrotesk-VariableFont_wght.ttf");
 }
 
 @layer base {
